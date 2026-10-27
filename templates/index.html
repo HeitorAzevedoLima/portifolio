@@ -30,7 +30,7 @@
     <main class="main">
       <!-- Seção inicial -->
       <section class="main__home home" id="home">
-        <h1 class="home__title">NOME SOBRENOME</h1>
+        <h1 class="home__title">Heitor Azevedo</h1>
         <p class="home__subtitle">DESENVOLVEDOR WEB, PROGRAMADOR PYTHON</p>
       </section>
 
@@ -39,9 +39,10 @@
         <h2 class="about__title">SOBRE MIM</h2>
         <div class="about__info info-block">
           <p class="info-block__text">
-            Informações sobre mim. Informações sobre mim. Informações sobre mim.
-            Informações sobre mim. Informações sobre mim. Informações sobre mim.
-            Informações sobre mim. Informações sobre mim. Informações sobre mim.
+              Eu sou um desenvolvedor web e programador em python, eu sou apaixonado
+            em jogos e tecnologia, estou sempre buscando aprender mais e me melhorar
+            como profissional, estou sempre disposto a enfrentar novos desafios e 
+            aprender com eles.
           </p>
           <img
             class="info-block__img"
@@ -66,7 +67,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Informações da habilidade</span>
+              <span class="skill__info">Um dos meus projetos em Python</span>
               <input
                 class="skill__button"
                 type="submit"
@@ -83,7 +84,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Informações da habilidade</span>
+              <span class="skill__info">Meu perfil no Discord</span>
               <input
                 class="skill__button"
                 type="submit"
@@ -100,7 +101,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Informações da habilidade</span>
+              <span class="skill__info">Um dos meus projetos em HTML</span>
               <input
                 class="skill__button"
                 type="submit"
@@ -117,7 +118,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Informações da habilidade</span>
+              <span class="skill__info">Um dos meus projetos com SQL</span>
               <input
                 class="skill__button"
                 type="submit"
@@ -137,6 +138,17 @@
             width="500"
           />
           <a class="project__link" href="">Abrir no GitHub</a>
+        </div>
+        {% endif %}
+        {% if button_discord %}
+        <div class="skills__project project" id="project">
+          <img
+            class="project__img"
+            src="../static/img/discord-id.png"
+            alt="projeto"
+            width="500"
+          />
+          <a class="project__link" href="">Abrir no Discord</a>
         </div>
         {% endif %}
       </section>
